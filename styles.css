@@ -86,7 +86,7 @@ body {
     /*height: 100px;/*100px*/
     background: white;
     border-radius: 15px; /* Rounded square */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);    
     padding: 0.68%; /*10px*/
     transition: transform 0.3s ease;
 }
@@ -96,13 +96,15 @@ body {
 }
 
 .mobile-phones {
-    background-color: #a600af;
+    background-color: #77277c;
     background-image: url('assets/bgImg01.png'); /* Background image */
     background-size: cover; /* Ensure the image covers the entire area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent image repetition */
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-left: -0.6%;
+    margin-right: -0.6%;
 }
 
 .h1-mobile {
@@ -138,11 +140,28 @@ body {
 }
 
 .curved-button-mobile:hover {
-    background-color: #552960; /* Darker background on hover */
+    background-color: #742b86; /* Darker background on hover */
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow on hover */
 }
 
 .button-container-mobile {
     display: flex;
     justify-content: left; /* Centers button horizontally */
+}
+
+
+.foreground-image {
+    position: absolute; /* Places it on top of the background */
+    top: 950px; /* Adjust the top position */
+    left: 540px; /* Adjust the left position */
+    width: 800px; /* Adjust image size */
+    height: auto;
+}
+
+.mobile-phones-image {
+    position: absolute; /* Places it on top of the background */
+    top: 957px; /* Adjust the top position */
+    left: 835px; /* Adjust the left position */
+    width: 668px; /* Adjust image size */
+    height: auto;
 }
