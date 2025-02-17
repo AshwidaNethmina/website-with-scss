@@ -1,0 +1,147 @@
+body {
+  font-family: "DM Sans", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.h1-home {
+  font-family: "DM Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 380%;
+  text-align: center;
+  padding-top: 5.5%;
+  color: #000743;
+}
+
+.h4-home {
+  font-family: "DM Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 125%;
+  text-align: center;
+  color: #000743;
+}
+
+.curved-button {
+  background-color: #FF3366;
+  color: #ffffff;
+  padding: 1% 1%;
+  border: none;
+  border-radius: 5px;
+  font-size: 100%;
+  font-family: "DM Sans", serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 255px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.curved-button:hover {
+  background-color: #da2552;
+  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.floating-icon {
+  position: absolute;
+  width: 6.77%;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 0.68%;
+  transition: transform 0.3s ease;
+}
+.floating-icon:hover {
+  transform: scale(1.1);
+}
+
+.mobile-phones {
+  background-color: #77277c;
+  background-image: url("assets/bgImg01.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: -0.6%;
+  margin-right: -0.6%;
+}
+
+.h1-mobile {
+  font-family: "DM Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  text-align: left;
+  margin-left: 5%;
+  color: #ffffff;
+}
+
+.curved-button-mobile {
+  background-color: #A86DB7;
+  color: #ffffff;
+  padding: 1% 1%;
+  margin-left: 5%;
+  border: none;
+  border-radius: 5px;
+  font-size: 100%;
+  font-family: "DM Sans", serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 220px;
+  height: 45px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.curved-button-mobile:hover {
+  background-color: #742b86;
+  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.button-container-mobile {
+  display: flex;
+  justify-content: left;
+}
+
+.foreground-image {
+  position: absolute;
+  top: 950px;
+  left: 540px;
+  width: 800px;
+  height: auto;
+}
+
+.mobile-phones-image {
+  position: absolute;
+  top: 957px;
+  left: 835px;
+  width: 668px;
+  height: auto;
+}/*# sourceMappingURL=styles.css.map */
